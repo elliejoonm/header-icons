@@ -47,21 +47,24 @@ h1 {
 }
 
 .nav li {
+  float: left;
+  width: 33.3333%;
+}
+
+.nav a {
   background-color: #d05c2e;
   border-top: 1px solid #a63f38;
   border-left: 1px solid #a63f38;
   border-bottom: 1px solid #a63f38;
-  float: left;
-  font-size: 1.125rem;
-  width: 33.3333%;
-  padding: .4rem 0;
-}
-
-.nav a {
   color: #fff;
   text-decoration: none;
+  font-size: 1.125rem;
+  padding: .4rem 0;
+  display: inline-block;
+  width: 100%;
+  margin: auto;
 }
 
-.nav li:hover {
+.nav a:hover {
   background-color: #a63f38;
 }
