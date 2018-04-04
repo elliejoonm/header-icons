@@ -46,7 +46,6 @@ h1 {
   text-align: center;
 }
 
-
 .nav li {
   background-color: #d05c2e;
   border-top: 1px solid #a63f38;
@@ -54,7 +53,7 @@ h1 {
   border-bottom: 1px solid #a63f38;
   float: left;
   font-size: 1.125rem;
-  width: 33.3333333333%;
+  width: 33.3333%;
   padding: .4rem 0;
 }
 
